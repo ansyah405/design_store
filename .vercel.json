@@ -2,6 +2,10 @@
     "build": {
       "env": {
         "NODE_VERSION": "18"
+      },
+      "commands": {
+        "build": "npm install && npm run build"
       }
     }
   }
+  

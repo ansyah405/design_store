@@ -2,7 +2,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "npm run build",
+        "build": "npm install && npx vite build",
         "dev": "npx vite"
     },
     "dependencies": {
