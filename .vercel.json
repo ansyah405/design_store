@@ -1,16 +1,27 @@
 {
-    "build": {
-        "env": {
-            "NODE_VERSION": "18"
-        },
-        "commands": {
-            "build": "npm install && npm run build"
-        },
-        "rewrites": [
-            {
-                "source": "/(.*)",
-                "destination": "/index.php"
-            }
-        ]
+    "version": 2,
+    "builds": [
+      {
+        "src": "public/index.php",
+        "use": "@vercel/php"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "public/index.php"
+      }
+    ],
+    "env": {
+      "APP_ENV": "production",
+      "APP_KEY": "base64:uprSjrm2sh+U3qPp0IzPo4q1x5N1478MAxCEsG0cQPA=",
+      "APP_URL": "https://design-store.vercel.app",
+      "DB_CONNECTION": "mysql",
+      "DB_HOST": "sql12.freesqldatabase.com",
+      "DB_PORT": "3306",
+      "DB_DATABASE": "sql12760965",
+      "DB_USERNAME": "sql12760965",
+      "DB_PASSWORD": "wiFblaJNqJ"
     }
-}
+  }
+  
