@@ -5,6 +5,9 @@
         "build": "npx vite build",
         "dev": "npx vite"
     },
+    "dependencies": {
+        "vite": "^6.0.11"
+    },
     "devDependencies": {
         "autoprefixer": "^10.4.20",
         "axios": "^1.7.4",
