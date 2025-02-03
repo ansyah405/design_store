@@ -2,7 +2,6 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "postinstall": "npm install",
         "build": "npx vite build",
         "dev": "npx vite"
     },
